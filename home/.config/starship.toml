@@ -1,0 +1,12 @@
+add_newline = false
+format = "$directory$git_branch$git_status$python$cmd_duration$line_break$character"
+
+[directory]
+truncation_length = 3
+
+[cmd_duration]
+min_time = 2000
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"

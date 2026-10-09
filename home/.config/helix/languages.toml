@@ -1,0 +1,16 @@
+# Python: ty (Astral's type checker) for types/go-to-def, ruff for lint + format.
+# Both pick up the project's .venv automatically.
+
+[language-server.ty]
+command = "ty"
+args = ["server"]
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
+
+[[language]]
+name = "python"
+language-servers = ["ty", "ruff"]
+auto-format = true
+formatter = { command = "ruff", args = ["format", "-"] }

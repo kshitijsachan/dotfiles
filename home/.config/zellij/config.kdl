@@ -1,0 +1,8 @@
+// Start locked so Helix gets every key; press Ctrl-g to unlock zellij's bindings.
+default_mode "locked"
+default_layout "compact"
+theme "catppuccin-mocha"
+pane_frames false
+copy_on_select true
+show_startup_tips false
+show_release_notes false

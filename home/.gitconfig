@@ -1,0 +1,42 @@
+# Name, email and commit signing live in ~/.gitconfig.local (not in this public repo).
+[include]
+	path = ~/.gitconfig.local
+
+[core]
+	editor = hx
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	line-numbers = true
+	syntax-theme = ansi
+
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true
+[fetch]
+	prune = true
+[rebase]
+	autoStash = true
+	autoSquash = true
+[rerere]
+	enabled = true
+[diff]
+	algorithm = histogram
+	colorMoved = default
+[merge]
+	conflictStyle = zdiff3
+[branch]
+	sort = -committerdate
+
+[alias]
+	st = status -sb
+	co = checkout
+	sw = switch
+	lg = log --graph --oneline --decorate
+	amend = commit --amend --no-edit
+	undo = reset --soft HEAD~1

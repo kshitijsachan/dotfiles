@@ -1,0 +1,5 @@
+# Fallback config, used only when a project has no ruff settings of its own.
+line-length = 88
+
+[lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
