@@ -3,8 +3,8 @@
 set -euo pipefail
 
 # Keyboard: fast repeat, and hold-to-repeat instead of the accent popup (matters for hjkl)
-defaults write -g KeyRepeat -int 2
-defaults write -g InitialKeyRepeat -int 15
+defaults write -g KeyRepeat -int 1          # 15ms; System Settings minimum is 2
+defaults write -g InitialKeyRepeat -int 8   # 120ms; System Settings minimum is 15
 defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Trackpad: tap to click, three-finger drag
