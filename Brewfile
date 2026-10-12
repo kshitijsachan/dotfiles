@@ -48,6 +48,7 @@ cask "shottr"                        # screenshots
 cask "stats"                         # menu bar system monitor
 cask "monitorcontrol"                # external display brightness
 cask "orbstack"                      # lightweight Docker / Linux VMs
+cask "wispr-flow"                    # voice dictation
 
 # Optional — uncomment if you need it
 # cask "brave-browser"
