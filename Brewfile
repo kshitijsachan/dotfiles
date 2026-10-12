@@ -38,6 +38,7 @@ brew "marksman"                      # Markdown LSP for helix
 # --- Apps ---
 cask "1password"
 cask "1password-cli"
+cask "obsidian"                      # notes / life wiki
 cask "nikitabobko/tap/aerospace"     # tiling window manager
 cask "raycast"                       # launcher (Spotlight replacement)
 cask "karabiner-elements"            # Caps Lock → Esc (tap) / Ctrl (hold)
@@ -46,7 +47,7 @@ cask "jordanbaird-ice"               # menu bar cleanup
 cask "shottr"                        # screenshots
 cask "stats"                         # menu bar system monitor
 cask "monitorcontrol"                # external display brightness
+cask "orbstack"                      # lightweight Docker / Linux VMs
 
-# Optional — uncomment if you need them
-# cask "orbstack"                    # lightweight Docker
+# Optional — uncomment if you need it
 # cask "brave-browser"
